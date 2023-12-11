@@ -1,7 +1,5 @@
 <?php
 
-require __DIR__ . '/Sanitize.php';
-
 if ( !function_exists('sanitize') ) {
     function sanitize($text)
     {
