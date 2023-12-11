@@ -1,5 +1,7 @@
 <?php
 
+namespace Onx\Sanitize\Providers;
+
 final class SanitizeServiceProvider extends ServiceProvider
 {
     public function register()
