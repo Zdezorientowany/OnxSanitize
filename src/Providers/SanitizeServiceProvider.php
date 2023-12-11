@@ -2,6 +2,9 @@
 
 namespace Onx\Sanitize\Providers;
 
+use Illuminate\Support\ServiceProvider;
+use Onx\Sanitize\Sanitize;
+
 final class SanitizeServiceProvider extends ServiceProvider
 {
     public function register()
