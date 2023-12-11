@@ -1,11 +1,12 @@
 <?php
 
 namespace Onx\Sanitize;
+use Illuminate\Support\Facades\Facade;
 
-class Sanitize
+class Sanitize extends Facade
 {
-    public static function text($string)
+    protected static function getFacadeAccessor(): string
     {
-        return sanitize($string);
+        return 'sanitize';
     }
 }
