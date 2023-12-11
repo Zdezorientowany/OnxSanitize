@@ -2,7 +2,7 @@
 
 require __DIR__ . '/Sanitize.php';
 
-if ( !function_exists('sanitizeText') ) {
+if ( !function_exists('sanitize') ) {
     function sanitize($text)
     {
         $sanitizedText = strip_tags($text); // SQL injection protection
