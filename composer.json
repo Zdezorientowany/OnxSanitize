@@ -21,5 +21,8 @@
       "email": "szymonkilian98@o2.pl"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^11.0@dev"
+  }
 }
