@@ -1,16 +1,17 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Onx\Sanitize\Sanitize;
 
 class SanitizeTest extends TestCase
 {
     public function testSanitizeTextRemoveTags()
     {
-        $this->assertEquals('Hello', sanitizeText('<h1>Hello</h1>'));
+        $this->assertEquals('Hello', Sanitize::text('<h1>Hello</h1>'));
     }
 
     public function testSanitizeTextTrim()
     {
-        $this->assertEquals('Hello', sanitizeText(' Hello '));
+        $this->assertEquals('Hello', Sanitize::text(' Hello '));
     }
 }
