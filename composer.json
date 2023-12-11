@@ -26,7 +26,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "src\\Providers\\SanitizeServiceProvider"
+        "Onx\\Sanitize\\Providers\\SanitizeServiceProvider"
       ],
       "aliases": {
         "Sanitize": "Onx\\Sanitize\\Sanitize"
