@@ -9,4 +9,10 @@ class Sanitize extends Facade
     {
         return 'sanitize';
     }
+
+    public static function text($string)
+    {
+        return sanitize($string);
+    }
+
 }
